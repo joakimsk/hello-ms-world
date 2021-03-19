@@ -4,7 +4,7 @@ Tiny, modified Hello World node.js app for [App Service Web App](https://docs.mi
 
 This web app should be available at: (https://joakim-test-app.azurewebsites.net/) at least until the free tier runs out...
 
-npm dependencies: esj, mssql
+npm dependencies: ejs, mssql
 
 ## Database config
 Create db-config.json for everything needed for your MS SQL connection:
