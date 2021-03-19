@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Index</title>
+</head>
+
+<body>
+    
+    <p>Azure App Service. Hello Microsoft World!</p>
+    <p>Data delivered from MS SQL:</p>
+     <ul>
+         <% allPhrases.forEach(item => { %>
+         <li><%- item.phrase %></li>
+       <%});%>
+    </ul>
+</body>
+
+</html>

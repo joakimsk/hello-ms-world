@@ -1,0 +1,15 @@
+{
+    "name": "app-hello-ms-world",
+    "description": "Simple Hello World Node.js for Azure App Service with MS SQL connection",
+    "version": "0.0.1",
+    "private": true,
+    "license": "Unlicense",
+    "author": "Joakim Skjefstad",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "mssql": "^6.3.1"
+    }
+}

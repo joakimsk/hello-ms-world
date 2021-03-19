@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>About</title>
+</head>
+
+<body>
+    <h1>About</h1>
+    <p> <%= thisIsData  %> </p>
+    <ul>
+        <% allPhrases.forEach(item => { %>
+        <li><%- item.phrase %></li>
+      <%});%>
+   </ul>
+</body>
+
+</html>
