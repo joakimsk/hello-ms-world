@@ -1,17 +1,10 @@
----
-page_type: sample
-languages:
-- nodejs
-- javascript
-products:
-- azure
-- azure-app-service
-description: "This sample demonstrates a tiny Hello World Node.js app for Azure App Service."
----
-
 # Node.js Hello World
 
 Tiny, modified Hello World node.js app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web) with MS SQL database interface.
+
+This web app should be available at: (https://joakim-test-app.azurewebsites.net/) at least until the free tier runs out...
+
+npm dependencies: esj, mssql
 
 ## Database config
 Create db-config.json for everything needed for your MS SQL connection:
@@ -24,6 +17,9 @@ Create db-config.json for everything needed for your MS SQL connection:
 }
 
 This file is not under version control.
+
+## Database content
+You can run the sql to set up the table in your MS SQL database.
 
 ## To avoid node_modules upload
 Do this in the future:
